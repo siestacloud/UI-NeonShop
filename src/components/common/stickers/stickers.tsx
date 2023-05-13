@@ -1,3 +1,4 @@
+import { Title } from "../title/title";
 import a from "./img/1.png";
 import b from "./img/2.png";
 import c from "./img/3.png";
@@ -31,9 +32,7 @@ export function Stickers() {
 
   return (
     <article className="stickers" >
-      <h2 className="stickers__headline">Stickers</h2>
-      <p className="stickers__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus odit ab facere culpa. <br /> Voluptas eos fugit vitae ut iure?</p>
-
+      <Title title="Stickers" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus odit ab facere culpa.  Voluptas eos fugit vitae ut iure?"/>
       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme stickers__gallery">
         <img src={a} alt="ok"></img>
         <img src={b} alt="ok"></img>

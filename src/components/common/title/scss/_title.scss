@@ -1,0 +1,19 @@
+.title {
+  @include f(center, center, column);
+  text-align: center;
+
+  &__headline {
+
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  &__desc {
+    width: 80%;
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+  }
+}

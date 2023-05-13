@@ -49,11 +49,12 @@
     display: flex;
     align-items: center;
 
-    &:hover svg {
+    &:hover img {
       margin-left: 25px;
     }
 
-    svg {
+    img {
+      filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(87deg) brightness(109%) contrast(100%);
       font-size: 25px;
       margin-left: 10px;
       transition: 0.3s ease-in-out;
@@ -62,6 +63,8 @@
   }
 
   &__img {
+    pointer-events: none;
+
     width: 42%;
   }
 }

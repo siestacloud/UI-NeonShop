@@ -4,7 +4,7 @@
   grid-area: footer;
   display: grid;
   grid-template: 1fr / minmax(15px, 1fr) minmax(10px, 1240px) minmax(15px, 1fr);
-
+background-color: rgba(7, 0, 36, 1);
   @media (max-width: 867px) {}
 
 }
