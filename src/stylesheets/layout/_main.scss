@@ -1,0 +1,19 @@
+// <ОСНОВНОЙ БЛОК>
+
+.main {
+  // padding-top:  30px;
+  padding-bottom:  30px;
+
+  grid-area: main;
+  background-color: $blue-light;
+
+  // display: grid;
+  // grid-template: 1fr / minmax(15px, 1fr) minmax(10px, 1240px) minmax(15px, 1fr);
+
+  // &__wrapper {
+    // grid-area: 1/2;
+  // }
+  @media (max-width: 867px) {
+  }
+}
+

@@ -1,0 +1,29 @@
+// <ШАПКА САЙТА>
+
+.header {
+  grid-area: header;
+  width: 100%;
+  position: fixed;
+  display: grid;
+  grid-template: 1fr / minmax(15px, 1fr) minmax(10px, 1240px) minmax(15px, 1fr);
+
+padding: 22px 0px;
+
+  &__wrapper {
+    grid-area: 1/2;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    position: relative;
+  }
+
+
+  &__menu {
+    flex-basis: 50%;
+    @include f(space-between, center, row);
+
+  }
+
+  @media (max-width: 867px) {}
+
+}

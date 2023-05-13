@@ -1,0 +1,6 @@
+.links{
+ font-size: 18px;
+ @include f(space-between, center, row);
+  gap: 15px;
+  margin: 0px 20px 0px 20px;
+}
