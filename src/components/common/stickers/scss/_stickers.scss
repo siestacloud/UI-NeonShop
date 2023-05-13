@@ -1,4 +1,4 @@
-.skills {
+.stickers {
   width: 100%;
   text-align: center;
   background: #00000049;
@@ -17,5 +17,16 @@
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+  }
+
+  &__gallery{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    img{
+      width: 200px;
+    }
   }
 }
