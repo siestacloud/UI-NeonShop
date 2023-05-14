@@ -12,7 +12,6 @@ function Main() {
       <Gallery></Gallery>
       {/* <Gallery></Gallery> */}
       <Contact></Contact>
-      <Subscribe></Subscribe>
     </main>
   );
 }
