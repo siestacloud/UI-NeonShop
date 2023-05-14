@@ -14,4 +14,18 @@
     @include f(space-between, center, row);
 
   }
+  &__img{
+    pointer-events: none;
+
+    width: 42%;
+  }
+  @media (max-width: 867px) {
+    &__row {
+      @include f(center, center, column);
+      
+    }
+    &__img{
+      display: none;
+    }
+  }
 }

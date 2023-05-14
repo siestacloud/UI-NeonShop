@@ -11,7 +11,7 @@ export function Contact() {
         <Title title="Get in touch" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus odit ab facere culpa.  Voluptas eos fugit vitae ut iure?" />
 
         <div className="contact__row">
-        <img src={a} className="about__img"></img>
+          <img src={a} className="contact__img"></img>
           <FormUI></FormUI>
         </div>
 

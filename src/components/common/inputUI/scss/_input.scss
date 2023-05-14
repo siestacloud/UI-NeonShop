@@ -53,5 +53,21 @@
     letter-spacing: 0.5px;
     border-radius: 18px;
   }
-
+  @media (max-width: 867px) {
+    width: 100%;
+    &__wrapper {
+      text-align: center;
+      @include f(center, center, column);
+      gap: 20px;
+      
+    }
+    &__btn{
+      width: 100%;
+      padding: 15px 30px;
+    }
+    &__email{
+      padding: 20px 5px 5px 10px;
+      font-size: 18px;
+    }
+  }
 }

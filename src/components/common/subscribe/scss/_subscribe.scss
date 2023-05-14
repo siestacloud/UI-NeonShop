@@ -17,4 +17,17 @@
     font-weight: 600;
     flex-basis: 40%;
   }
+
+
+
+  @media (max-width: 867px) {
+    &__wrapper {
+      text-align: center;
+      @include f(center, center, column);
+      gap: 20px;
+      padding: 25px 30px;
+
+      
+    }
+  }
 }

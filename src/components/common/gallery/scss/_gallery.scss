@@ -17,5 +17,10 @@
   }
 
 
-  @media (max-width: 867px) {}
+  @media (max-width: 867px) {
+    &__row{
+      height: 1210px;
+
+    }
+  }
 }

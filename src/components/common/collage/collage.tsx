@@ -9,44 +9,39 @@ interface props {
 export function Collage({ show }: props) {
 
   return (
-    <article className={`collage ${show ? 'active' : ''}`} >
-      <div className="collage__item">
-        <img src={one} alt="" />
+    <article className={`collage ${show ? 'active' : ''}  `} >
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={two} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
+        <div className="collage__content">
+          <h4>Business Startup</h4>
+          <span>Design & Development</span>
+        </div>
+        
+      </div>
+      <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={one} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={two} alt="" />
-        <div className="collage__content">
-          <h4>Business Startup</h4>
-          <span>Design & Development</span>
-        </div>
-      </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
@@ -61,43 +56,37 @@ export function Collage2({ show }: props) {
 
   return (
     <article className={`collage ${show ? 'active' : ''}`} >
-      <div className="collage__item">
-        <img src={one} alt="" />
+           <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={two} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={one} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={two} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
@@ -110,43 +99,37 @@ export function Collage3({ show }: props) {
 
   return (
     <article className={`collage ${show ? 'active' : ''}`} >
-      <div className="collage__item">
-        <img src={two} alt="" />
+            <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={one} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={two} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={one} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${three})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
       </div>
-      <div className="collage__item">
-        <img src={three} alt="" />
+      <div className="collage__item" style={{ backgroundImage: `url(${one})` }}  >
         <div className="collage__content">
           <h4>Business Startup</h4>
           <span>Design & Development</span>

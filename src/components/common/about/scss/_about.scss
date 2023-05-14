@@ -1,7 +1,5 @@
 .about {
 
-
-
   @include f(center, center, row);
   gap: 5%;
 
@@ -66,5 +64,27 @@
     pointer-events: none;
 
     width: 42%;
+  }
+
+
+  @media (max-width: 867px) {
+
+    @include f(center, flex-start, column-reverse);
+
+    &__text {
+      // padding-top: 20px;
+      z-index: 1;
+      // background-color: #020202a6;
+      padding: 20px 10px;
+      border-radius: 10px;
+    }
+
+    &__img {
+      position: absolute;
+      width: 60%;
+      z-index: 0;
+      top: 50%;
+      right: 20px;
+    }
   }
 }
