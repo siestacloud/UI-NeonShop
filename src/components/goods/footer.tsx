@@ -12,7 +12,10 @@ function Footer() {
         <Subscribe></Subscribe>
         <div className='footer__row'>
           <Logo></Logo>
-          <Social></Social>
+          <div className='footer__col'>
+            <Social></Social>
+            <p>Copyright 2022. All Rights Reserved</p>
+          </div>
         </div>
 
       </div>
