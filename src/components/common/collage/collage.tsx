@@ -27,7 +27,6 @@ export function Collage({ show }: props) {
           <h4>Business Startup</h4>
           <span>Design & Development</span>
         </div>
-        
       </div>
       <div className="collage__item" style={{ backgroundImage: `url(${two})` }}  >
         <div className="collage__content">

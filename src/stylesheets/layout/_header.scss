@@ -2,22 +2,29 @@
 
 .header {
   z-index: 25;
-
+  padding: 7px 0px;
   grid-area: header;
   width: 100%;
   position: fixed;
   display: grid;
   grid-template: 1fr / minmax(15px, 1fr) minmax(10px, 1240px) minmax(15px, 1fr);
-  padding: 22px 0px;
 
 
   &__wrapper {
+    padding: 22px 11px;
     grid-area: 1/2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     flex-wrap: wrap;
+    transition: all .3s ease;
+    border-radius: 10px;
+    &.scrolled {
+      padding: 11px 11px;
+      background: rgba(0, 0, 0, 0.829);
+
+    }
   }
 
   &__burger {
@@ -69,13 +76,14 @@
   }
 
   @media (max-width: 867px) {
-    &__wrapper{
+    &__wrapper {
       z-index: 2;
       background-color: #020202b9;
       padding: 20px 15px;
       border-radius: 10px;
       position: relative;
     }
+
     &__menu {
       @include f(center, center, column);
       background-color: #020202a6;
@@ -90,7 +98,8 @@
       opacity: 0;
 
       transform: translateX(-50%);
-      &-active{
+
+      &-active {
         top: 110%;
         opacity: 1;
       }
